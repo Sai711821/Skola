@@ -1,0 +1,96 @@
+
+<html lang="en">
+<head>
+
+    <title>Payment Failed</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.error-message {
+    text-align: center;
+}
+
+.error-message h1 {
+    color: #dc3545;
+    font-size: 2.5em;
+}
+
+.error-message p {
+    font-size: 1.2em;
+}
+
+.error-message .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.error-message .btn-secondary {
+    background-color: #6c757d;
+}
+
+.error-message .btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message .btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.order-summary {
+    margin-top: 30px;
+}
+
+.order-summary h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.order-summary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.order-summary ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.order-summary ul li span {
+    font-weight: bold;
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="error-message">
+            <h1>Payment Failed</h1>
+            <p>Unfortunately, your payment could not be processed at this time.</p>
+            <p>Please try again later or contact support if the issue persists.</p>
+            <p>Error Code: <span id="error-code">ERR12345</span></p>
+
+
+        </div>
+
+</body>
+</html>
